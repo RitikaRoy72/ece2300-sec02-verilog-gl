@@ -19,6 +19,7 @@ module PairTripleDetector_GL
     and(y, in0, in1);
     and(x, w, in2);
     or(out, y, x);
+    //BUG HERE
 
 
 endmodule
